@@ -6,11 +6,8 @@ ruby '3.1.0'
 # Full-stack web application framework. (https://rubyonrails.org)
 gem 'rails', '~> 7.0.2'
 
-# Sprockets Rails integration (https://github.com/rails/sprockets-rails)
-gem 'sprockets-rails'
-
-# Adds multiple exporters to Sprockets (https://github.com/hansottowirtz/sprockets-exporters_pack)
-gem 'sprockets-exporters_pack'
+# Deliver assets for Rails. (https://github.com/rails/propshaft)
+gem 'propshaft'
 
 # The speed of a single-page web application without having to write any JavaScript. (https://github.com/hotwired/turbo-rails)
 gem 'turbo-rails'
